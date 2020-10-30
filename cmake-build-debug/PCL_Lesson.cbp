@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PCL_Lesson"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Robot_modules_3rdparty\;CMake Files\..\..\Robot_modules_3rdparty\cmake\;CMake Files\..\..\Robot_modules_3rdparty\3rdparty\;CMake Files\..\..\Robot_modules_3rdparty\3rdparty\pcl-1.10.0-16.04\;CMake Files\..\..\Robot_modules_3rdparty\3rdparty\pcl-1.10.0-16.04\share\;CMake Files\..\..\Robot_modules_3rdparty\3rdparty\pcl-1.10.0-16.04\share\pcl-1.10\;CMake Files\..\..\Robot_modules_3rdparty\3rdparty\pcl-1.10.0-16.04\share\pcl-1.10\Modules\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\;CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01_iterative_closest_point2">
+				<Option output="/home/liuhao/CLionProjects/瓦特曼/code1/build/debug/bin/01_iterative_closest_point2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/瓦特曼/code1/build/debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/usr/include/vtk-6.2"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 01_iterative_closest_point2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01_iterative_closest_point2/fast">
+				<Option output="/home/liuhao/CLionProjects/瓦特曼/code1/build/debug/bin/01_iterative_closest_point2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/瓦特曼/code1/build/debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/usr/include/vtk-6.2"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 01_iterative_closest_point2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03_normal_distributions_transform2">
+				<Option output="/home/liuhao/CLionProjects/瓦特曼/code1/build/debug/bin/03_normal_distributions_transform2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/瓦特曼/code1/build/debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/usr/include/vtk-6.2"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 03_normal_distributions_transform2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03_normal_distributions_transform2/fast">
+				<Option output="/home/liuhao/CLionProjects/瓦特曼/code1/build/debug/bin/03_normal_distributions_transform2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/瓦特曼/code1/build/debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/usr/include/vtk-6.2"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 03_normal_distributions_transform2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/liuhao/CLionProjects/瓦特曼/code1/build/debug/bin/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/瓦特曼/code1/build/debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/usr/include/vtk-6.2"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/liuhao/CLionProjects/瓦特曼/code1/build/debug/bin/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/瓦特曼/code1/build/debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/usr/include/vtk-6.2"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/src/01_iterative_closest_point2.cpp">
+			<Option target="01_iterative_closest_point2"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/src/03_normal_distributions_transform2.cpp">
+			<Option target="03_normal_distributions_transform2"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/src/test.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../Robot_modules_3rdparty/cmake/FindPCL_1.10.0_16.04.cmake">
+			<Option virtualFolder="CMake Files\..\..\Robot_modules_3rdparty\cmake\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/share/pcl-1.10/PCLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Robot_modules_3rdparty\3rdparty\pcl-1.10.0-16.04\share\pcl-1.10\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/share/pcl-1.10/PCLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Robot_modules_3rdparty\3rdparty\pcl-1.10.0-16.04\share\pcl-1.10\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/share/pcl-1.10/Modules/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\..\..\Robot_modules_3rdparty\3rdparty\pcl-1.10.0-16.04\share\pcl-1.10\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/share/pcl-1.10/Modules/FindFLANN.cmake">
+			<Option virtualFolder="CMake Files\..\..\Robot_modules_3rdparty\3rdparty\pcl-1.10.0-16.04\share\pcl-1.10\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/share/pcl-1.10/Modules/FindOpenNI.cmake">
+			<Option virtualFolder="CMake Files\..\..\Robot_modules_3rdparty\3rdparty\pcl-1.10.0-16.04\share\pcl-1.10\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/share/pcl-1.10/Modules/FindOpenNI2.cmake">
+			<Option virtualFolder="CMake Files\..\..\Robot_modules_3rdparty\3rdparty\pcl-1.10.0-16.04\share\pcl-1.10\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/share/pcl-1.10/Modules/FindQhull.cmake">
+			<Option virtualFolder="CMake Files\..\..\Robot_modules_3rdparty\3rdparty\pcl-1.10.0-16.04\share\pcl-1.10\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/UseVTK.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/VTKConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/VTKConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/VTKTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/VTKTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/vtkModuleAPI.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkChartsCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkCommonColor.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkCommonComputationalGeometry.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkCommonCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkCommonDataModel.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkCommonExecutionModel.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkCommonMath.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkCommonMisc.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkCommonSystem.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkCommonTransforms.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkDICOMParser.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkFiltersCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkFiltersExtraction.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkFiltersGeneral.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkFiltersGeometry.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkFiltersHybrid.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkFiltersModeling.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkFiltersSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkFiltersStatistics.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkFiltersTexture.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkGUISupportQt.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkIOCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkIOGeometry.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkIOImage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkIOLegacy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkIOPLY.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkImagingColor.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkImagingCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkImagingFourier.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkImagingGeneral.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkImagingHybrid.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkImagingSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkInfovisCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkInteractionStyle.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkInteractionWidgets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkMetaIO.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkParseOGLExt.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkRenderingAnnotation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkRenderingContext2D.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkRenderingContextOpenGL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkRenderingCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkRenderingFreeType.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkRenderingLOD.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkRenderingLabel.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkRenderingOpenGL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkRenderingQt.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkRenderingVolume.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkUtilitiesEncodeString.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkViewsContext2D.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkViewsCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkalglib.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkfreetype.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkftgl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkjpeg.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkjsoncpp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkpng.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtksys.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtktiff.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/cmake/vtk-6.2/Modules/vtkzlib.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/瓦特曼/code1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

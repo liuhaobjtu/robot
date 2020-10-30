@@ -1,0 +1,198 @@
+/home/liuhao/devel/clion-2020.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/liuhao/CLionProjects/瓦特曼/code1
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.2.92
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.2.92)
+-- Found Boost: /usr/include (found suitable version "1.58.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams serialization regex 
+-- Checking for module 'flann'
+--   Found flann, version 1.8.4
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.20
+-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Found OpenNI: /usr/lib/libOpenNI.so  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- Found OpenNI2: /usr/lib/libOpenNI2.so  
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+-- Found libusb-1.0: /usr/include  
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_common.so  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_kdtree.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_octree.so  
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_filters.so  
+-- looking for PCL_2D
+-- Found PCL_2D: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/include/pcl-1.10  
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_features.so  
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_keypoints.so  
+-- looking for PCL_IO
+-- Found PCL_IO: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_io.so  
+-- looking for PCL_STEREO
+-- Found PCL_STEREO: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_stereo.so  
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_registration.so  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/include/pcl-1.10  
+-- looking for PCL_ML
+-- Found PCL_ML: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_ml.so  
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_segmentation.so  
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_visualization.so  
+-- looking for PCL_PEOPLE
+-- Found PCL_PEOPLE: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_people.so  
+-- looking for PCL_OUTOFCORE
+-- Found PCL_OUTOFCORE: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_outofcore.so  
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_surface.so  
+-- looking for PCL_RECOGNITION
+-- Found PCL_RECOGNITION: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_recognition.so  
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib/libpcl_tracking.so  
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_features;pcl_keypoints;pcl_io;pcl_stereo;pcl_registration;pcl_ml;pcl_segmentation;pcl_visualization;pcl_people;pcl_outofcore;pcl_surface;pcl_recognition;pcl_tracking;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkIOCore;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkIOGeometry;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL;vtkRenderingOpenGL;vtkRenderingQt;vtkFiltersTexture;vtkGUISupportQt;vtkRenderingLabel;FLANN::FLANN (Required is exact version "1.10.0") 
+-- 找到的PCL_FOUND:-------------0--------------:1
+-- 找到的PCL_VERSIONR:----------0--------------:1.10.0
+-- 找到的PCL_VERSION_MAJOR:-----0--------------:1
+-- 找到的PCL_VERSION_MINOR:-----0--------------:10
+-- 找到的PCL_VERSION_MINOR:-----0--------------:0
+-- 找到的PCL_INCLUDE_DIRS:------1--------------:/home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/include/pcl-1.10;/usr/include/eigen3;/usr/include;/usr/include/vtk-6.2;/usr/include/freetype2;/usr/include/x86_64-linux-gnu/freetype2;/usr/include/x86_64-linux-gnu;/usr/include/jsoncpp;/usr/include/ni;/usr/include/openni2
+-- 找到的PCL_LIBRARY_DIRS:------2--------------:/home/liuhao/CLionProjects/Robot_modules_3rdparty/3rdparty/pcl-1.10.0-16.04/lib
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_common
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_kdtree
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_octree
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_search
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_sample_consensus
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_filters
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_features
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_keypoints
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_io
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_stereo
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_registration
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_ml
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_segmentation
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_visualization
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_people
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_outofcore
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_surface
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_recognition
+-- 找到的PCL_LIBRARIES:---------3--------------:pcl_tracking
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libboost_system.so
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libboost_date_time.so
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libboost_serialization.so
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libboost_regex.so
+-- 找到的PCL_LIBRARIES:---------3--------------:optimized
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libqhull.so
+-- 找到的PCL_LIBRARIES:---------3--------------:debug
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libqhull.so
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/libOpenNI.so
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/libOpenNI2.so
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkChartsCore
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkCommonColor
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkCommonDataModel
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkCommonMath
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkCommonCore
+-- 找到的PCL_LIBRARIES:---------3--------------:vtksys
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkCommonMisc
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkCommonSystem
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkCommonTransforms
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkInfovisCore
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkFiltersExtraction
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkCommonExecutionModel
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkFiltersCore
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkFiltersGeneral
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkCommonComputationalGeometry
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkFiltersStatistics
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkImagingFourier
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkImagingCore
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkalglib
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkRenderingContext2D
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkRenderingCore
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkFiltersGeometry
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkFiltersSources
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkRenderingFreeType
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libfreetype.so
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libz.so
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkftgl
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkFiltersModeling
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkImagingSources
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkInteractionStyle
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkInteractionWidgets
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkFiltersHybrid
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkImagingGeneral
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkImagingHybrid
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkIOImage
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkDICOMParser
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkIOCore
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkmetaio
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libjpeg.so
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libpng.so
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libtiff.so
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkRenderingAnnotation
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkImagingColor
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkRenderingVolume
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkIOGeometry
+-- 找到的PCL_LIBRARIES:---------3--------------:/usr/lib/x86_64-linux-gnu/libjsoncpp.so
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkIOLegacy
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkIOPLY
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkRenderingLOD
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkViewsContext2D
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkViewsCore
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkRenderingContextOpenGL
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkRenderingOpenGL
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkRenderingQt
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkFiltersTexture
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkGUISupportQt
+-- 找到的PCL_LIBRARIES:---------3--------------:vtkRenderingLabel
+-- 找到的PCL_LIBRARIES:---------3--------------:FLANN::FLANN
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/liuhao/CLionProjects/瓦特曼/code1/cmake-build-debug
